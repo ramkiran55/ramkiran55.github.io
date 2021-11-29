@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Falcon 9 Landing</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="falcon" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/fall.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/pridd.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/pridd2.JPG" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="portfolio-info">
+              <h3>SpaceX: Falcon 9 Landing Prediction IBM Data Science Project</h3>
+              <ul>
+                <li><strong>Data Scraping, Pridictive Modeling with Classification</strong></li>
+                <li><strong>Client</strong>: IBM Data Science</li>
+                <li><strong>Project date</strong>: 12 Aug, 2021</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/ramkiran55/Applied-Data-Science-Capstone-Project.git" target="_blank">Applied-Data-Science-Capstone-Project.git</a></li>
+              </ul>
+            </div>
+          </div>
+            <div class="portfolio-description">
+              <h3 id="spacex-falcon-9-landing-prediction-ibm-data-science-project">SpaceX: Falcon 9 Landing Prediction IBM Data Science Project</h3>
+<h4 id="project-background-and-context">Project background and context</h4>
+<ul>
+<li>SpaceX is a company that aims to make commercial space travel more affordable for everyone.</li>
+<li>This company can launch rockets for a cost of around 60 million dollars. In contrast, other providers require165 million dollars for one launch. This is due to the fact that SpaceX can reuse the first stage of the rocket Falcon9.</li>
+<li>The primary cost saving agent is the high success rate of stage 1 landing and thus its reusability in future launches.</li>
+<li>The challenge here is to set a right costing fore cast of the rocket launches through predicting its potential to land stage 1 successfully.</li>
+</ul>
+<h4 id="problems-you-want-to-find-answers">Problems you want to find answers</h4>
+<ul>
+<li>What are features that contributes the most to predict whether the stage one of the rocket will and land successfully?</li>
+<li>Can we predict if the new launches will be successful based on our trained model. What will be the accuracy of our predictions?</li>
+</ul>
+<h4 id="data-collection-methodology-">Data collection methodology:</h4>
+<p>Data was collected using the SpaceX REST API and Wikipedia Web scrapping using python BeautifulSoup.
+The data is collected:</p>
+<ul>
+<li>Using SpaceX API.</li>
+<li>Using BeautifulSoup library to scrap data from the Wikipedia page.</li>
+</ul>
+<h5 id="data-collection-spacex-api">Data Collection – SpaceX API</h5>
+<ul>
+<li>Request launch data from SpaceX URL using given API.</li>
+<li>Extract the data from the response.</li>
+<li>Pre-process and construct the data.</li>
+<li>Store the data in CSV file.</li>
+<li><a href="https://github.com/ramkiran55/Applied-Data-Science-Capstone-Project/blob/main/Week1/Capstone%20Project.ipynb">Notebook Link</a></li>
+</ul>
+<h5 id="data-collection-scraping">Data Collection - Scraping</h5>
+<ul>
+<li>Request for the Wikipedia page.</li>
+<li>Parse the table data from html text using beautifulSoup4 library.</li>
+<li>Create pandas data frame from table data.</li>
+<li>Construct the data and store it in CSV.</li>
+<li><a href="https://github.com/ramkiran55/Applied-Data-Science-Capstone-Project/blob/main/Week1/Data%20Collection%20with%20Web%20Scraping.ipynb">Notebook Link</a></li>
+</ul>
+<h4 id="perform-data-wrangling">Perform Data Wrangling</h4>
+<p>Data was processed using python pandas and numpy library.</p>
+<ul>
+<li>Calculate the number of launches per site.</li>
+<li>Number of occurrence of each orbit.</li>
+<li>Number of occurrences of outcome per orbit.</li>
+<li>Create landing outcome label.</li>
+<li><a href="https://github.com/ramkiran55/Applied-Data-Science-Capstone-Project/blob/main/Week1/EDA.ipynb">Notebook Link</a></li>
+</ul>
+<h5 id="eda-with-data-visualization">EDA with Data Visualization</h5>
+<ul>
+<li><a href="https://github.com/ramkiran55/Applied-Data-Science-Capstone-Project/blob/main/Week2/EDA%20with%20Data%20Visualization.ipynb">Notebook Link</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><img src="https://raw.githubusercontent.com/ramkiran55/Applied-Data-Science-Capstone-Project/main/Week2/imgs/Picture4.png" alt=""></td>
+<td style="text-align:left"><img src="https://raw.githubusercontent.com/ramkiran55/Applied-Data-Science-Capstone-Project/main/Week2/imgs/Picture5.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://raw.githubusercontent.com/ramkiran55/Applied-Data-Science-Capstone-Project/main/Week2/imgs/Picture3.png" alt=""></p>
+<h4 id="perform-exploratory-data-analysis-eda-using-visualization-and-sql">Perform exploratory data analysis (EDA) using visualization and SQL</h4>
+<ul>
+<li>Display the names of the unique launch sites in the space mission.</li>
+<li>Display 5 records where launch sites begin with the string ‘CCA’ .</li>
+<li>Display the total payload mass carried by boosters launched by NASA.</li>
+<li>Display average payload mass carried by booster version ‘F9 v1.1’.</li>
+<li>List the date when the first successful landing outcome in ground pad was achieved.</li>
+<li>List the names of the boosters which have success in drone ship and have payload mass greater than 4000 but less than 6000.</li>
+<li>List the total number of successful and failure mission outcomes.</li>
+<li>List the names of the booster versions which have carried the maximum payload mass.</li>
+<li>List the failed landing outcomes in drone ship, their booster versions, and launch site names for in year 2015.</li>
+<li>Rank the count of landing outcomes (such as Failure (drone ship) or Success (ground pad)) between the date 2010 06 04 and 2017 03 20 , in descending order.</li>
+<li><a href="https://github.com/ramkiran55/Applied-Data-Science-Capstone-Project/blob/main/Week2/EDA%20with%20SQL.ipynb">Notebook Link</a></li>
+</ul>
+<h4 id="perform-interactive-visual-analytics-using-folium-and-plotly-dash">Perform interactive visual analytics using Folium and Plotly Dash</h4>
+<p>Map objects which are created and added to the folium map are given below:</p>
+<ul>
+<li>Markers: Added to mark a specific area with a text label on a specific coordinate.</li>
+<li>Circles: Added to highlight circle areas with a text label on a specific coordinate.</li>
+<li>Marker Cluster: Marker clusters were used to simplify the containing many markers having the same coordinates.</li>
+<li>Mouse Position: Used to get coordinate for a mouse over a point on the map (proximities). It helps to find the coordinates easily of any points of interests while exploring the map.</li>
+<li>Polyline: It draws polyline overlays on a map. It was used to denote the distance between a launch site and its proximities(such as Railway station, city, etc.).</li>
+<li><a href="https://github.com/ramkiran55/Applied-Data-Science-Capstone-Project/blob/main/Week3/Interactive%20Visual%20Analytics%20with%20Folium%20lab.ipynb">Notebook Link</a></li>
+</ul>
+<h5 id="build-a-dashboard-with-plotly-dash">Build a Dashboard with Plotly Dash</h5>
+<p>Pie chart (total launches for a selected site or the total sites collection)</p>
+<ul>
+<li>Shows relative proportions of different sites successful landing distribution.</li>
+<li>Shows % of success vs. failure for a given site.
+Scatter Plot</li>
+<li>Showing the correlation between Outcome and Payload Mass(Kg) for different Booster Versions with freedom of selection of the range of payload mass of Interest.</li>
+<li><a href="https://github.com/ramkiran55/Applied-Data-Science-Capstone-Project/blob/main/Week3/spacex_dash_app.py#L18">Code Link</a></li>
+</ul>
+<h4 id="perform-predictive-analysis-using-classification-models">Perform predictive analysis using classification models</h4>
+<p>Models were built using Scikit-Learn, data were previously normalized and models hyper parameters were found using a Grid Search with a 10 fold cross validation, in the end the best performing model has been selected based on accuracy.</p>
+<p>Classification models (Experiment usability and compatibility of SVM, Tree maps, KNN, Logistic
+Regression optimizing parameters) were built, evaluated and tuned using sklearn.</p>
+<ul>
+<li><a href="https://github.com/ramkiran55/Applied-Data-Science-Capstone-Project/blob/main/Week4/Machine%20Learning%20Prediction.ipynb">Notebook Link</a></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/ramkiran55/Applied-Data-Science-Capstone-Project/main/Week4/imgs/Picture6.png" alt=""></p>
+<h5 id="predictive-analysis-classification-">Predictive Analysis (Classification)</h5>
+<p>Launch sites are :</p>
+<ul>
+<li>CCAFS LC-40</li>
+<li>CCAFS SLC-40</li>
+<li>KSC LC-39A</li>
+<li>VAFB SLC-4E</li>
+</ul>
+<p>SQL QUERY:  select distinct(launch_site) from SPACEXTBL;</p>
+<p><img src="https://raw.githubusercontent.com/ramkiran55/Applied-Data-Science-Capstone-Project/main/Week4/imgs/Picture7.jpg" alt=""></p>
+<ul>
+<li>The total payload carried by boosters from NASA is 45596 kg.</li>
+</ul>
+<p>SQL QUERY: select sum(payload<em>mass__kg</em>) from SPACEXTBL where customer = &#39;NASA (CRS)&#39;;</p>
+<ul>
+<li>The average payload mass carried by booster version F9 v1.1 is 2534 kg.</li>
+</ul>
+<p>SQL QUERY: select avg(payload<em>mass__kg</em>) from SPACEXTBL where booster_version like &#39;F9 v1.1%&#39;;</p>
+<ul>
+<li>The dates of the first successful landing outcome on ground pad was 2015-12-22.</li>
+</ul>
+<p>SQL QUERY: select min(DATE) from SPACEXTBL where landing__outcome = &#39;Success (ground pad)&#39;;</p>
+<ul>
+<li>List the names of boosters which have successfully landed on drone ship and had payload mass greater than 4000 but less than 6000:</li>
+<li>F9 FT B1032.1</li>
+<li>F9 B4 B1040.1
+vF9 B4 B1043.1</li>
+</ul>
+<p>SQL QUERY: select distinct(booster_version) from SPACEXTBL where landing<strong>outcome = &#39;Success (drone ship)&#39; AND payload_mass</strong>kg_ &gt; 4000 AND payload<em>mass__kg</em> &lt; 6000;</p>
+<ul>
+<li>Rank the count of landing outcomes (such as Failure (drone ship) or Success (ground pad)) between the date 2010-06-04 and 2017-03-20, in descending order</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/ramkiran55/Applied-Data-Science-Capstone-Project/main/Week4/imgs/trying123.JPG" alt=""></p>
+<p>SQL QUERY: select landing<strong>outcome,count(landing</strong>outcome) as count from SPACEXTBL where DATE BETWEEN &#39;2010-06-04&#39; and &#39;2017-03-20&#39; GROUP BY landing<strong>outcome ORDER BY count(landing</strong>outcome) DESC;</p>
+<h4 id="classification-accuracy">Classification Accuracy</h4>
+<p>The best model based on the accuracy is a Decision Tree Classifier with a score of 0.884.
+<img src="https://raw.githubusercontent.com/ramkiran55/Applied-Data-Science-Capstone-Project/main/Week4/imgs/Picture8.png" alt=""></p>
+<p>The Confusion Matrix of the Decision Tree Classifier</p>
+<ul>
+<li>True Positive : 12</li>
+<li>False Negative : 0</li>
+<li>True Negative : 3</li>
+<li>False Positive : 3
+<img src="https://raw.githubusercontent.com/ramkiran55/Applied-Data-Science-Capstone-Project/main/Week4/imgs/Picture9.png" alt=""></li>
+</ul>
+<p>The model is quite interesting as it predicts a lot of times the good labels, however 3 times it predicted the success of the mission and the mission failed. Reducing the amount of False Positive would be a good idea to avoid spending Millions and years of work.
+It could be done using Boosting or maybe look at a model with a lower accuracy but a better precision.</p>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
