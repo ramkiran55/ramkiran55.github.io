@@ -2,6 +2,8 @@ Hi!
 
 Welcome .!
 
-Please click here to go to my portfolio website [ramkiran55.github.io/ramkirand/](https://ramkiran55.github.io/ramkirand/).
+Please click [here](https://ramkiran55.github.io/ramkirand/) to visit my portfolio website.
+
+My Portfolio link: [ramkiran55.github.io/ramkirand](https://ramkiran55.github.io/ramkirand/)
 
 Thanks!
