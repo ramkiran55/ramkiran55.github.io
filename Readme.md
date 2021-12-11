@@ -1,6 +1,4 @@
-Hello there !
-
-Welcome
+Hello there! Welcome.
 
 Please click [here](https://ramkiran55.github.io/ramkirand/) to visit my portfolio website.
 
